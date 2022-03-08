@@ -20,7 +20,7 @@ function unwrap(fromSF){
         duration: a.Duration__c,
         parent: a.Parent__c,
         progress: a.Progress__c,
-        color: "red"
+        color: "blue"
     }));
     const links = fromSF.links.map(a => ({
         id: a.Id,
